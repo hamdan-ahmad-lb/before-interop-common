@@ -17,8 +17,7 @@ components:
       required:
         - "@referredType"
       allOf:
-        - $ref: "./Extensible.openapi.yaml#/components/schemas/Extensible"
-        - $ref: "./Addressable.openapi.yaml#/components/schemas/Addressable"
+        - $ref: "./Entity.openapi.yaml#/components/schemas/Entity"
         - properties:
             name:
               description: Name of the related entity.
