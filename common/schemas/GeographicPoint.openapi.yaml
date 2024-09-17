@@ -19,21 +19,21 @@ components:
       properties:
         x:
           type: number
-          format: float
+          format: double
           description: |
             x coordinate (usually Latitude or Easting).
 
             Correspond à la propriété `coordonneeImmeubleX` de l'IPE.
         y:
           type: number
-          format: float
+          format: double
           description: |
             y coordinate (usually Longitude or Northing).
 
             Correspond à la propriété `coordonneeImmeubleY` de l'IPE.
         z:
           type: number
-          format: float
+          format: double
           description: z coordinate (usually Altitude or Elevation).
         type:
           type: string
