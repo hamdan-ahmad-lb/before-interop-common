@@ -59,9 +59,7 @@ components:
               description:
                 An entity that is related to the ticket such as a bill, a product, etc.
                 The entity against which the ticket is associated.
-              type: array
-              items:
-                $ref: "./RelatedEntity.openapi.yaml#/components/schemas/RelatedEntity"
+              type: object
               nullable: true
             relatedParty:
               description: The related party(ies) that are associated to the ticket.
